@@ -2,7 +2,7 @@
 function getClientInfo()
   return {
     name = "Duration Quantize (Lua)",
-    category = "Duration",
+    category = "Shikigami",
     author = "Shikigami",
     versionNumber = 0,
     minEditorVersion = 0
