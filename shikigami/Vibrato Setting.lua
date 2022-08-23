@@ -154,7 +154,7 @@ function main()
       -- iがオフセットの中にあったらなにもしない
       if i >= offset + startPoint then
         -- 角度情報を算出
-        local rad = math.rad((((i - startPoint) / startPoint) * (tempo / 60) * sl2) * 360)
+        local rad = math.rad((((i - (endPoint - startPoint)) / (endPoint - startPoint)) * (tempo / 60) * sl2) * 360)
         -- その角度情報をもとに正弦波を作る
         local y = 0
         --コンボボックスの値に応じて形を決める
