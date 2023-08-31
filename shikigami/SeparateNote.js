@@ -54,7 +54,7 @@ function main() {
     splitted.setTimeRange(note.getEnd(), originalEnd - note.getEnd());
 
     // ここから
-    splitted.setLyrics(note.getLyrics());
+    splitted.setLyrics("-");
     group.addNote(splitted);
     selection.selectNote(splitted);
 
